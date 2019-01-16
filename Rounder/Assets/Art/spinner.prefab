@@ -122,6 +122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 120
+  spawnPoint: {fileID: 0}
+  ball: {fileID: 0}
 --- !u!212 &212678742745885880
 SpriteRenderer:
   m_ObjectHideFlags: 1
