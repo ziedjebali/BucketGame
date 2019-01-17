@@ -6,8 +6,13 @@ public class WinHandle : MonoBehaviour {
 
     public static int points;
 
+    CircleCollider2D collider;
     // Use this for initialization
     void Start () {
+
+        
+
+
         int points = 0;
 
     }
@@ -16,7 +21,13 @@ public class WinHandle : MonoBehaviour {
     {
         if(col.tag == "ball")
         {
+            collider = col.GetComponent<CircleCollider2D>();
+            collider.enabled = false;
+
             points++;
+
+            FindObjectOfType<PlayerController>().scoredBall();
+
             Debug.Log(points);
 
         }
