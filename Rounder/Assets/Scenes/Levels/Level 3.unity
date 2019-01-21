@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6238b9efef01c7949ab534afe99babc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: 0
-  pointstowin: 0
+  nextLevel: 1
+  pointstowin: 5
 --- !u!4 &108265326
 Transform:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.8862746, g: 0.882353, b: 0.86666673, a: 0}
+  m_BackGroundColor: {r: 0.10588236, g: 0.10588236, b: 0.10588236, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -728,7 +728,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4346389238464840, guid: 31c18a642d5691f4fab3c309edccb913, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -7.95
+      value: -6.97
       objectReference: {fileID: 0}
     - target: {fileID: 4346389238464840, guid: 31c18a642d5691f4fab3c309edccb913, type: 2}
       propertyPath: m_LocalPosition.z
@@ -874,7 +874,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 18b6de6c8fc197547b503ae706462281, type: 3}
-  m_Color: {r: 0.5921569, g: 0.0627451, b: 0.31764707, a: 1}
+  m_Color: {r: 0.97647065, g: 0.42352945, b: 0.18823531, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15aa0f6baebeb564cb8fcc9a59f90bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leveldificulty: 4
+  leveldificulty: 5
   ballstowin:
   - {fileID: 2106297487}
   - {fileID: 2058420156}
@@ -918,10 +918,10 @@ MonoBehaviour:
   - {fileID: 1272607383}
   - {fileID: 1395913685}
   - {fileID: 294986975}
-  ballimage: {fileID: 1326636269093596, guid: 92d6aa969cdf4764ba84c2bcc0a14f0e, type: 2}
+  ballimage: {fileID: 1326636269093596, guid: 3feb4b5ed0e3e584e88f8292c71fdd4e, type: 2}
   rotationspeed: 160
   spawnpoint: {fileID: 1265060495}
-  ball: {fileID: 1326636269093596, guid: 085871103f37aad4b8cceaa138784fc9, type: 2}
+  ball: {fileID: 1326636269093596, guid: e7391cc3912118945a903f07f817d119, type: 2}
 --- !u!1 &1265060494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1163,7 +1163,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b07132cbe969b864b825cc4752cacde3, type: 3}
-  m_Color: {r: 0.91372555, g: 0.32156864, b: 0.48627454, a: 1}
+  m_Color: {r: 0.9725491, g: 0.909804, b: 0.10980393, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1333,7 +1333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87843144, g: 0.68235296, b: 0.73333335, a: 1}
+  m_Color: {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
